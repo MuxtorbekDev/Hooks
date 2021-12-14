@@ -1,6 +1,5 @@
 import "./App.css";
-import React from "react";
+import React, { useState, useRef } from "react";
+import TextInput from "./useImperativeHandle/TextInput";
 
-export default function App() {
-  return <div className="App">Salom</div>;
-}
+export default function App() {}
