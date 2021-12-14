@@ -1,7 +1,33 @@
 .App {
   text-align: center;
+  margin: 4rem auto;
+  width: 35rem;
+  height: 25rem;
+  box-shadow: 2px 5px 20px 3px rgba(0,0,0,.5);
+  background-color: blueviolet;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+p {
+  font-size: 2rem;
+  font-weight: 600;
 }
 
+button {
+  padding: .5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 1rem;
+}
+.success {
+  background-color:brown;
+}
+.danger {
+  background-color:darkblue
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +61,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+ul li {
+  list-style: none;
 }
