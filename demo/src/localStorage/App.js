@@ -1,9 +1,10 @@
 import "../App.css";
-import React, { useState, useRef } from "react";
-import usePrevious from "./usePriveos";
+import React from "react";
+import usePrevious from "../MaxsusHooklar/usePriveos";
+import useLocalStorage from "./LocalStorage";
 
 export default function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useLocalStorage(0, "count");
   const prevCount = usePrevious(count);
   return (
     <div className="App">
